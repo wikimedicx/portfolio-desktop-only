@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+	<nav>
+		<div class="left">
+			<h3>Portfolio</h3>
+		</div>
+		<div class="right">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section class="jumbotron" >
+		<div class="left" data-0-top="opacity:0; left:100px;" data-200-top="opacity:2; left:0px;" >
+			<h2>Hello I am <br><span>Muhammad Afrizal</span></h2>
+			<h3>Fullstack Web Developer</h3>
+			<h4>Palopo, Indonesia</h4>
+			<button>About Me</button>
+		</div>
+	</section>
+	<section class="about">
+		<div class="left">
+			<h2 data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:500px;">About Me</h2>
+			<p data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:500px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quia porro ipsa! Corporis doloremque molestias, magni, optio ratione eveniet et consequatur voluptas cumque veritatis quia error ipsam in praesentium. Tempore aspernatur incidunt corrupti aut excepturi minima in, fugiat expedita possimus dignissimos voluptas provident itaque officia similique, nemo a cupiditate quis quisquam nulla harum deleniti, ipsum! Minus, aperiam molestias assumenda, quasi ex asperiores porro vero illum necessitatibus commodi ratione omnis, corrupti saepe placeat beatae maiores unde iure, quam voluptatibus eum eos? Possimus pariatur vel odit error eius impedit placeat illum! Adipisci hic, nisi corporis recusandae, tempore nam repudiandae quisquam amet ipsa.</p>
+		</div>
+		<div class="right" >
+			<img src="img/about.jpg" alt="" id="img" data-center-center="opacity:1;top:0;" data-0-bottom="opacity:0;top:500px;">
+		</div>
+	</section>
+	<section class="services">
+		<div class="html service service-color" data-center-center="opacity:1;top:1;" data-0-bottom="opacity:0;top:500px;">
+			<div class="content">
+				<img src="img/javascript.svg" id="img" alt="">
+				<h2>Javascript</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad provident, libero quis minus quam voluptas laborum fugit reiciendis delectus! Aspernatur?</p>
+			</div>
+		</div>
+		<div class="css service service-color" data-center-center="opacity:1;top:0;" data-0-bottom="opacity:0;top:-500px;">
+			<div class="content">
+				<img id="img" src="img/css.svg" alt="">
+				<h2>CSS</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad provident, libero quis minus quam voluptas laborum fugit reiciendis delectus! Aspernatur?</p>
+			</div>
+		</div>
+		<div class="javascript service service-color" data-center-center="opacity:1;top:0;" data-0-bottom="opacity:0;top:500px;">
+			<div class="content">
+				<img src="img/react.svg" id="img" alt="">
+				<h2>React</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad provident, libero quis minus quam voluptas laborum fugit reiciendis delectus! Aspernatur?</p>
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<h1>Contact</h1>
+			<div class="content">
+				<div class="left">		
+					<input type="text" id="left" placeholder="Name">
+					<input type="text" id="left" placeholder="Email">
+					<input type="text" id="left" placeholder="Subject">
+					<textarea id="left" name="subject" placeholder="Message"></textarea>
+					<button id="left">Send</button>
+				</div>
+				<div class="right">
+					<div class="location content-right">
+						<i class="fas fa-map-marker-alt"></i>
+						<p>Palopo | Indonesia</p>
+					</div>
+					<div class="phone content-right">
+						<i class="fas fa-phone-alt"></i>
+						<p>+62 822 3824 5976</p>
+					</div>
+					<div class="message content-right">
+						<i class="fas fa-envelope"></i>
+						<p>hellspeir@gmail.com</p>
+					</div>
+					<div class="sosmed">
+						<a href="https://github.com/wikimedicx" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+						<a href="https://twitter.com/afriiizal" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+						<a href="https://www.instagram.com/afrriiizall/" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
+							
+					</div>
+				</div>
+			</div>
+		<div class="footer">
+			<p>All right reserverd @ wikimedicx</p>
+		</div>
+	</section>
+
+	<!-- Danger For User Who Use Mobile & Tablet Device -->
+	<section class="danger">
+		<div class="content">
+			<h1>Coming Soon ...</h1>
+			<h3>In Phone and Tablet Device</h3>
+		</div>
+	</section>
+	<script src="skrollr.js"></script>
+	<script type="text/javascript">
+		var s = skrollr.init();
+	</script>
+</body>
+</html>
